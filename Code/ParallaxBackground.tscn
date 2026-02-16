@@ -1,0 +1,14 @@
+[gd_scene format=3 uid="uid://bhx5dlfrdg72y"]
+
+[ext_resource type="Texture2D" uid="uid://cnb8seaqm7nia" path="res://Images/Background.jpg" id="1_gapds"]
+
+[node name="Background" type="Node2D" unique_id=239064968]
+
+[node name="ParallaxBackground" type="ParallaxBackground" parent="." unique_id=850063498]
+
+[node name="ParallaxLayer" type="ParallaxLayer" parent="ParallaxBackground" unique_id=1901076366]
+
+[node name="Sprite2D" type="Sprite2D" parent="ParallaxBackground/ParallaxLayer" unique_id=656811134]
+position = Vector2(-32.00001, 19)
+scale = Vector2(2.112745, 1.807598)
+texture = ExtResource("1_gapds")

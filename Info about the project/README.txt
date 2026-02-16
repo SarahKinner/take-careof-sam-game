@@ -29,7 +29,7 @@ To recreate the development environment, you need the following software and/or 
 I found these websites useful in developing this software:
 
 * [How to Use GitHub With Godot (Also Works With Existing Projects)](https://www.youtube.com/watch?v=6nG71kB1EvM)
-*
+* [How to Use a 2D Background in Godot| Godot Tutorial by A Noob] (https://www.youtube.com/watch?v=hPsuZavzUGI)
 *
 
 ## Future Work

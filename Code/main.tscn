@@ -1,0 +1,21 @@
+[gd_scene format=3 uid="uid://6gxa67c82qgs"]
+
+[ext_resource type="PackedScene" uid="uid://bhx5dlfrdg72y" path="res://Code/ParallaxBackground.tscn" id="1_mlw2d"]
+[ext_resource type="PackedScene" uid="uid://otrvmhec1ue6" path="res://Code/wall_1.tscn" id="2_asa22"]
+[ext_resource type="PackedScene" uid="uid://cjnlsxrxac1xl" path="res://Code/wall_2.tscn" id="3_sxokv"]
+[ext_resource type="PackedScene" uid="uid://b4vtikb8alwfg" path="res://Code/wall_3.tscn" id="4_m2mlj"]
+
+[node name="Main" type="Node2D" unique_id=1186348637]
+
+[node name="Camera2D" type="Camera2D" parent="." unique_id=66494554]
+
+[node name="Background" parent="." unique_id=239064968 instance=ExtResource("1_mlw2d")]
+
+[node name="Wall_1" parent="." unique_id=1624093123 instance=ExtResource("2_asa22")]
+position = Vector2(-665, -349)
+
+[node name="wall_2" parent="." unique_id=550883332 instance=ExtResource("3_sxokv")]
+position = Vector2(-251, 319)
+
+[node name="wall_3" parent="." unique_id=72726830 instance=ExtResource("4_m2mlj")]
+position = Vector2(-586, -362)

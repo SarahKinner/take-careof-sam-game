@@ -32,7 +32,8 @@ The expected minimum amount of time each Sprint for each category is as follows:
 																			|60           |
 |2/13/26   |10:15 AM  |MTG     |Talked about our progress on and saw what others are up to
 																			|60           |
-|          |          |        |                                            |             |
+|2/16/26   |11:45 AM  |IM      |Connect to Github, added background and barriers, and made simple character that moves around and collides with barriers 
+														  					|195          |
 |          |          |        |                                            |             |
 |          |          |        |                                            |             |
 
@@ -42,7 +43,7 @@ _Note: Add more rows as needed._
 
 |Categroy                       |Total Time (Hours:Minutes)|
 |-------------------------------|:------------------------:|
-|IM - Individual Module         |                          |
+|IM - Individual Module         |          3:15            |
 |TP - Team Project              |          1:00            |
 |MTG - Class Meetings           |          2:00            |
 |**TOTAL**                      |                          |

@@ -4,6 +4,8 @@
 [ext_resource type="PackedScene" uid="uid://otrvmhec1ue6" path="res://Code/wall_1.tscn" id="2_asa22"]
 [ext_resource type="PackedScene" uid="uid://cjnlsxrxac1xl" path="res://Code/wall_2.tscn" id="3_sxokv"]
 [ext_resource type="PackedScene" uid="uid://b4vtikb8alwfg" path="res://Code/wall_3.tscn" id="4_m2mlj"]
+[ext_resource type="PackedScene" uid="uid://c58xrvcp8ole4" path="res://Code/wall_4.tscn" id="5_fdhps"]
+[ext_resource type="PackedScene" uid="uid://61v182bj53y8" path="res://Code/sam.tscn" id="6_nlxfe"]
 
 [node name="Main" type="Node2D" unique_id=1186348637]
 
@@ -19,3 +21,9 @@ position = Vector2(-251, 319)
 
 [node name="wall_3" parent="." unique_id=72726830 instance=ExtResource("4_m2mlj")]
 position = Vector2(-586, -362)
+
+[node name="wall_4" parent="." unique_id=1969847019 instance=ExtResource("5_fdhps")]
+position = Vector2(586, -349)
+
+[node name="Sam" parent="." unique_id=66444347 instance=ExtResource("6_nlxfe")]
+position = Vector2(-272, 80)

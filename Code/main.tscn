@@ -6,6 +6,12 @@
 [ext_resource type="PackedScene" uid="uid://b4vtikb8alwfg" path="res://Code/wall_3.tscn" id="4_m2mlj"]
 [ext_resource type="PackedScene" uid="uid://c58xrvcp8ole4" path="res://Code/wall_4.tscn" id="5_fdhps"]
 [ext_resource type="PackedScene" uid="uid://61v182bj53y8" path="res://Code/sam.tscn" id="6_nlxfe"]
+[ext_resource type="PackedScene" uid="uid://odta7ywv0ujk" path="res://Code/food_item_meat.tscn" id="7_816w3"]
+[ext_resource type="PackedScene" uid="uid://wjom6v3tydvc" path="res://Code/food_source_lemon.tscn" id="10_136yc"]
+[ext_resource type="PackedScene" uid="uid://dtp8xrwf4bld3" path="res://Code/food_item_lemon.tscn" id="10_shbu0"]
+[ext_resource type="PackedScene" uid="uid://clegbmj5pfpn1" path="res://Code/food_source_sugar.tscn" id="11_gdgki"]
+[ext_resource type="PackedScene" uid="uid://8yy1260gwa0x" path="res://Code/food_source_meat.tscn" id="11_shbu0"]
+[ext_resource type="PackedScene" uid="uid://cfk5d1cx2da4i" path="res://Code/food_item_sugar.tscn" id="12_r2hxo"]
 [ext_resource type="Texture2D" uid="uid://cout77xqfw0uj" path="res://Images/FoodMenu_Holder.png" id="13_136yc"]
 
 [node name="Main" type="Node2D" unique_id=1186348637]
@@ -30,8 +36,31 @@ position = Vector2(587, -349)
 [node name="Sam" parent="." unique_id=66444347 instance=ExtResource("6_nlxfe")]
 position = Vector2(-272, 80)
 
+[node name="FoodItem_Meat" parent="." unique_id=806803878 instance=ExtResource("7_816w3")]
+z_index = 3
+position = Vector2(-288, -278)
+
+[node name="FoodItem_Lemon" parent="." unique_id=2127113814 instance=ExtResource("10_shbu0")]
+z_index = 3
+position = Vector2(0, -278)
+
+[node name="FoodItem_Sugar" parent="." unique_id=1863908438 instance=ExtResource("12_r2hxo")]
+z_index = 3
+position = Vector2(288, -278)
+
+[node name="FoodSource_Lemon" parent="." unique_id=1542753666 instance=ExtResource("10_136yc")]
+z_index = 2
+position = Vector2(0, -278)
+
+[node name="FoodSource_Meat" parent="." unique_id=1736218581 instance=ExtResource("11_shbu0")]
+z_index = 2
+position = Vector2(-288, -278)
+
+[node name="FoodSource_Sugar" parent="." unique_id=1296613327 instance=ExtResource("11_gdgki")]
+z_index = 2
+position = Vector2(288, -278)
+
 [node name="FoodHolder" type="TextureRect" parent="." unique_id=1265902839]
-visible = false
 z_index = 1
 offset_left = -886.0
 offset_top = -369.0

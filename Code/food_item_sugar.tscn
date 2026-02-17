@@ -1,0 +1,20 @@
+[gd_scene format=3 uid="uid://cfk5d1cx2da4i"]
+
+[ext_resource type="Texture2D" uid="uid://cmc0cjlradcre" path="res://Images/Sugar.png" id="1_5mx0d"]
+[ext_resource type="Script" uid="uid://c52yywpnvbdch" path="res://Code/food_item.gd" id="1_okori"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_okori"]
+radius = 35.0
+
+[node name="FoodItem_Sugar" type="Node2D" unique_id=1863908438]
+
+[node name="Area2D" type="Area2D" parent="." unique_id=1628880837]
+script = ExtResource("1_okori")
+
+[node name="Sprite2D" type="Sprite2D" parent="Area2D" unique_id=1588771115]
+position = Vector2(5, -4.000004)
+scale = Vector2(0.08337499, 0.088)
+texture = ExtResource("1_5mx0d")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D" unique_id=10913737]
+shape = SubResource("CircleShape2D_okori")

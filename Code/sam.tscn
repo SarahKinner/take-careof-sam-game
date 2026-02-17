@@ -3,18 +3,18 @@
 [ext_resource type="Script" uid="uid://noma7slp2xua" path="res://character.gd" id="1_mgnqp"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_k4muj"]
-size = Vector2(94, 46)
+size = Vector2(94, 91)
 
 [node name="Sam" type="Node2D" unique_id=66444347]
 
-[node name="Character" type="CharacterBody2D" parent="." unique_id=704655322]
+[node name="Sam" type="CharacterBody2D" parent="." unique_id=704655322]
 script = ExtResource("1_mgnqp")
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Character" unique_id=1960236623]
-position = Vector2(210, 135)
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Sam" unique_id=1960236623]
+position = Vector2(210, 134.5)
 shape = SubResource("RectangleShape2D_k4muj")
 
-[node name="ColorRect" type="ColorRect" parent="Character" unique_id=2115776193]
+[node name="ColorRect" type="ColorRect" parent="Sam" unique_id=2115776193]
 offset_left = 163.0
 offset_top = 89.0
 offset_right = 257.0

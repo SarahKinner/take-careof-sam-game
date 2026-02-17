@@ -1,0 +1,22 @@
+[gd_scene format=3 uid="uid://wjom6v3tydvc"]
+
+[ext_resource type="Script" uid="uid://b8neqamcfrpu2" path="res://area_2d.gd" id="1_hslvw"]
+[ext_resource type="PackedScene" uid="uid://dtp8xrwf4bld3" path="res://Code/food_item_lemon.tscn" id="2_c3c8w"]
+[ext_resource type="Texture2D" uid="uid://b6qr4mvxrayf4" path="res://Images/Lemon.png" id="2_x33d6"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_hslvw"]
+radius = 35.0
+
+[node name="FoodSource_Lemon" type="Node2D" unique_id=1542753666]
+
+[node name="Area2D" type="Area2D" parent="." unique_id=390064384]
+script = ExtResource("1_hslvw")
+food_item_scene = ExtResource("2_c3c8w")
+
+[node name="Sprite2D" type="Sprite2D" parent="Area2D" unique_id=1543154528]
+position = Vector2(1, 0)
+scale = Vector2(0.09, 0.094)
+texture = ExtResource("2_x33d6")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D" unique_id=597500893]
+shape = SubResource("CircleShape2D_hslvw")

@@ -1,0 +1,22 @@
+[gd_scene format=3 uid="uid://8yy1260gwa0x"]
+
+[ext_resource type="Script" uid="uid://b8neqamcfrpu2" path="res://area_2d.gd" id="1_brr1j"]
+[ext_resource type="Texture2D" uid="uid://du4my0wdx8s3" path="res://Images/Meat.png" id="2_8rofk"]
+[ext_resource type="PackedScene" uid="uid://odta7ywv0ujk" path="res://Code/food_item_meat.tscn" id="2_wc312"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_8rofk"]
+radius = 35.0
+
+[node name="FoodSource_Meat" type="Node2D" unique_id=1736218581]
+
+[node name="Area2D" type="Area2D" parent="." unique_id=1874718516]
+script = ExtResource("1_brr1j")
+food_item_scene = ExtResource("2_wc312")
+
+[node name="Sprite2D" type="Sprite2D" parent="Area2D" unique_id=1919109101]
+position = Vector2(3, -3)
+scale = Vector2(0.085, 0.081)
+texture = ExtResource("2_8rofk")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D" unique_id=1104474425]
+shape = SubResource("CircleShape2D_8rofk")

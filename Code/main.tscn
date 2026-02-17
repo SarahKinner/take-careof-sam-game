@@ -6,6 +6,8 @@
 [ext_resource type="PackedScene" uid="uid://b4vtikb8alwfg" path="res://Code/wall_3.tscn" id="4_m2mlj"]
 [ext_resource type="PackedScene" uid="uid://c58xrvcp8ole4" path="res://Code/wall_4.tscn" id="5_fdhps"]
 [ext_resource type="PackedScene" uid="uid://61v182bj53y8" path="res://Code/sam.tscn" id="6_nlxfe"]
+[ext_resource type="PackedScene" uid="uid://by14g6dpfptm6" path="res://Code/food_item.tscn" id="8_816w3"]
+[ext_resource type="PackedScene" uid="uid://dpgttfsnc31dr" path="res://Code/FoodSource.tscn" id="9_05kaf"]
 
 [node name="Main" type="Node2D" unique_id=1186348637]
 
@@ -27,3 +29,9 @@ position = Vector2(586, -349)
 
 [node name="Sam" parent="." unique_id=66444347 instance=ExtResource("6_nlxfe")]
 position = Vector2(-272, 80)
+
+[node name="FoodItem" parent="." unique_id=2041900852 instance=ExtResource("8_816w3")]
+position = Vector2(-395, -258)
+
+[node name="FoodSource" parent="." unique_id=954938343 instance=ExtResource("9_05kaf")]
+position = Vector2(-395, -258)

@@ -1,0 +1,16 @@
+[gd_scene format=3 uid="uid://by14g6dpfptm6"]
+
+[ext_resource type="Script" uid="uid://b8neqamcfrpu2" path="res://area_2d.gd" id="1_evuv7"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_16f4j"]
+radius = 20.0
+
+[node name="FoodItem" type="Node2D" unique_id=2041900852]
+
+[node name="Area2D" type="Area2D" parent="." unique_id=271510223]
+script = ExtResource("1_evuv7")
+
+[node name="Sprite2D" type="Sprite2D" parent="Area2D" unique_id=409887147]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D" unique_id=998648559]
+shape = SubResource("CircleShape2D_16f4j")

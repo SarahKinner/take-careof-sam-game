@@ -6,8 +6,12 @@
 [ext_resource type="PackedScene" uid="uid://b4vtikb8alwfg" path="res://Code/wall_3.tscn" id="4_m2mlj"]
 [ext_resource type="PackedScene" uid="uid://c58xrvcp8ole4" path="res://Code/wall_4.tscn" id="5_fdhps"]
 [ext_resource type="PackedScene" uid="uid://61v182bj53y8" path="res://Code/sam.tscn" id="6_nlxfe"]
-[ext_resource type="PackedScene" uid="uid://by14g6dpfptm6" path="res://Code/food_item.tscn" id="8_816w3"]
-[ext_resource type="PackedScene" uid="uid://dpgttfsnc31dr" path="res://Code/FoodSource.tscn" id="9_05kaf"]
+[ext_resource type="PackedScene" uid="uid://by14g6dpfptm6" path="res://Code/food_item_Meat.tscn" id="8_816w3"]
+[ext_resource type="PackedScene" uid="uid://dpgttfsnc31dr" path="res://Code/FoodSource_Meat.tscn" id="9_05kaf"]
+[ext_resource type="PackedScene" uid="uid://dtp8xrwf4bld3" path="res://Code/food_item_Lemon.tscn" id="9_gn0v5"]
+[ext_resource type="PackedScene" uid="uid://d26etqtvuulhn" path="res://Code/FoodSource_Lemon.tscn" id="10_136yc"]
+[ext_resource type="PackedScene" uid="uid://cfk5d1cx2da4i" path="res://Code/food_item_Sugar.tscn" id="11_shbu0"]
+[ext_resource type="PackedScene" uid="uid://cmg13iv2dsrrl" path="res://Code/FoodSource_Sugar.tscn" id="12_gdgki"]
 
 [node name="Main" type="Node2D" unique_id=1186348637]
 
@@ -33,5 +37,17 @@ position = Vector2(-272, 80)
 [node name="FoodItem" parent="." unique_id=2041900852 instance=ExtResource("8_816w3")]
 position = Vector2(-395, -258)
 
-[node name="FoodSource" parent="." unique_id=954938343 instance=ExtResource("9_05kaf")]
+[node name="FoodSource_Meat" parent="." unique_id=954938343 instance=ExtResource("9_05kaf")]
 position = Vector2(-395, -258)
+
+[node name="FoodItem2" parent="." unique_id=997437104 instance=ExtResource("9_gn0v5")]
+position = Vector2(-187, -259)
+
+[node name="FoodSource_Meat2" parent="." unique_id=335070643 instance=ExtResource("10_136yc")]
+position = Vector2(-187, -259)
+
+[node name="FoodItem3" parent="." unique_id=527038326 instance=ExtResource("11_shbu0")]
+position = Vector2(-27, -258)
+
+[node name="FoodSource_Meat3" parent="." unique_id=368780321 instance=ExtResource("12_gdgki")]
+position = Vector2(-27, -258)

@@ -1,6 +1,6 @@
-[gd_scene format=3 uid="uid://dpgttfsnc31dr"]
+[gd_scene format=3 uid="uid://d26etqtvuulhn"]
 
-[ext_resource type="PackedScene" uid="uid://by14g6dpfptm6" path="res://Code/food_item.tscn" id="1_vllrc"]
+[ext_resource type="PackedScene" uid="uid://by14g6dpfptm6" path="res://Code/food_item_Meat.tscn" id="1_h8ney"]
 
 [sub_resource type="GDScript" id="GDScript_kdkhu"]
 script/source = "extends Area2D
@@ -18,11 +18,11 @@ func _input_event(_viewport, event, _shape_idx):
 [sub_resource type="CircleShape2D" id="CircleShape2D_x4oej"]
 radius = 20.0
 
-[node name="FoodSource" type="Node2D" unique_id=954938343]
+[node name="FoodSource_Meat" type="Node2D" unique_id=954938343]
 
 [node name="Area2D" type="Area2D" parent="." unique_id=1239532121]
 script = SubResource("GDScript_kdkhu")
-food_item_scene = ExtResource("1_vllrc")
+food_item_scene = ExtResource("1_h8ney")
 
 [node name="Sprite2D" type="Sprite2D" parent="Area2D" unique_id=947845878]
 

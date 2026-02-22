@@ -44,7 +44,7 @@ The expected minimum amount of time each Sprint for each category is as follows:
                                                                             |60           |
 |2/20/26   |10:15 AM  |MTG     |Showed off our indivdual projects for this sprint and saw others individuals projects too
 																			|60           |
-|2/21/26   |8:52 PM   |IM      |
+|2/21/26   |8:52 PM   |IM      |Worked on the README file yay!              |44           |
 
 
 _Note: Add more rows as needed._
@@ -53,7 +53,7 @@ _Note: Add more rows as needed._
 
 |Categroy                       |Total Time (Hours:Minutes)|
 |-------------------------------|:------------------------:|
-|IM - Individual Module         |          9:16            |
+|IM - Individual Module         |          10:00            |
 |TP - Team Project              |          1:00            |
 |MTG - Class Meetings           |          4:00            |
 |**TOTAL**                      |                          |

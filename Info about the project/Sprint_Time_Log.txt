@@ -38,6 +38,14 @@ The expected minimum amount of time each Sprint for each category is as follows:
 										 									|161          |
 |2/16/26   |10:00 PM  |IM      |Had to delete food placeholders will put them back up later and made food sprites
 														   					|140          |
+|2/17/26   |10:15 AM  |IM      |Put back the food source and item so it doesn't cause problems
+																			|60           |
+|2/18/26   |10:15 AM  |MTG     |Talk about our progress on our team project and listened to other teams progress
+                                                                            |60           |
+|2/20/26   |10:15 AM  |MTG     |Showed off our indivdual projects for this sprint and saw others individuals projects too
+																			|60           |
+|2/21/26   |8:52 PM   |IM      |
+
 
 _Note: Add more rows as needed._
 
@@ -45,7 +53,7 @@ _Note: Add more rows as needed._
 
 |Categroy                       |Total Time (Hours:Minutes)|
 |-------------------------------|:------------------------:|
-|IM - Individual Module         |          8:16            |
+|IM - Individual Module         |          9:16            |
 |TP - Team Project              |          1:00            |
-|MTG - Class Meetings           |          2:00            |
+|MTG - Class Meetings           |          4:00            |
 |**TOTAL**                      |                          |
